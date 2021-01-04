@@ -6,12 +6,21 @@ with open("README.md", "rb") as f:
 setup(
     name="midi_lens",
     packages=["midi_lens"],
+    include_package_data=True,
     entry_points={
         "console_scripts": ['midi-lens = midi_lens.__main__:main']
     },
-    version=0.3,
-    description="Python command line application to analyze and compare MIDI files.",
+    url='https://github.com/J1939G/midi-lens',
+    version='1.0.1',
+    license='MIT',
+    classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+    ],
+    description="CLI tool for visualization of MIDI files",
     long_description=long_descr,
+    long_description_content_type='text/markdown',
     author="José Smutný",
     author_email="smutnjo2@cvut.cz",
     install_requires=[

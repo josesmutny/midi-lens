@@ -1,13 +1,13 @@
-# MIDI file analyzer and comparer <!-- omit in toc -->
+# MIDI file analyzer and comparer
 
-- [How to...](#how-to)
-  - [Install](#install)
-  - [Use](#use)
-  - [Understand visualizations](#understand-visualizations)
-- [Analysis method](#analysis-method)
-  - [Individual pieces](#individual-pieces)
-  - [Batch of pieces](#batch-of-pieces)
-- [WIP and to-dos](#wip-and-to-dos)
+  - [How to...](#how-to)
+    - [Install](#install)
+    - [Use](#use)
+    - [Understand visualizations](#understand-visualizations)
+  - [Analysis method](#analysis-method)
+    - [Individual pieces](#individual-pieces)
+    - [Batch of pieces](#batch-of-pieces)
+  - [WIP and to-dos](#wip-and-to-dos)
 
 The `midi-lens` script allows for graphical analysis and comparison of midi files. 
 Batch analysis compares pieces by piece-wide metrics (avg tempo, piece length etc.) and 
@@ -69,9 +69,6 @@ Multiple pieces are analyzed by piece-wide metrics, which are produced by calcul
 
 ## WIP and to-dos
 
-- [x] Fix `--no-pedal` tag not working  
-as of now, it appears the underlying MIDI library for file processing ignores the required parameter.  
-Done, the parameter was not being passed to MIDI 
-- [ ] Allow for piece comparison  
-a `midi-lens --compare x.mid y.mid` would be nice, and not too hard to implement
+- [x] Fix `--no-pedal` tag not working. Done, the parameter was not being passed to MIDI 
+- [ ] Allow for piece comparison. A `midi-lens --compare x.mid y.mid` would be nice, and not too hard to implement
 - [ ] Batch piece comparison using `timelapse` property
