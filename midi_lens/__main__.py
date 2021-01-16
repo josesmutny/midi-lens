@@ -1,7 +1,6 @@
 """__main__: executed when app directory is called as script."""
 
 from .midi_lens import main
-import click
 
 import glob
 import os
