@@ -20,13 +20,13 @@ The results of batch analysis (which can take some time for large samples) are s
 
 ### Install 
 
-For normal use, `pip install midi-lens` will suffice. 
+For normal use, `poetry install` will suffice. 
 
 For development:
 1. Clone this repository.
 2. Go to `midi_analyzer/`.
-3. `python setup.py install --user`.
-4. The program can now be run from terminal from anywhere on the system.
+3. `poetry install`.
+4. `poetry run python -m midi_lens`.
 
 ### Use
 
