@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "midi_lens"
+version = "1.0.2"
+description = "CLI tool for visualization of MIDI files"
+authors = ["José Smutný <smutnjo2@fit.cvut.cz>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+argparse = "^1.0"
+pychord = "^0.5"
+pandas = "^1.2.0"
+plotly = "^4.14.0"
+numpy = "^1.19"
+tqdm = "^4.56.0"
+mido = "^1.2.0"
+pick = "^1.0.0"
+pretty_midi = "^0.2.0"
+click = "^0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"

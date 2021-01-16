@@ -25,6 +25,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Poetry
+.python-version
+poetry.lock
+
 # vscode 
 .vscode/
 *.txt
